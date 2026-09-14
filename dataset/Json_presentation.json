@@ -1,0 +1,19 @@
+{
+	"name": "Json_presentation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "presentation",
+				"fileSystem": "azuredata"
+			}
+		},
+		"schema": {}
+	}
+}
