@@ -100,12 +100,12 @@
 						"userProperties": [],
 						"typeProperties": {
 							"dataflow": {
-								"referenceName": "raw_to_ingested",
+								"referenceName": "transform_to_presentation",
 								"type": "DataFlowReference",
 								"parameters": {},
 								"datasetParameters": {
-									"RawNews": {},
-									"IngestedData": {}
+									"source1": {},
+									"sink1": {}
 								}
 							},
 							"staging": {},
@@ -126,7 +126,7 @@
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/RestResource1')]",
 				"[concat(variables('factoryId'), '/datasets/Json1')]",
-				"[concat(variables('factoryId'), '/dataflows/raw_to_ingested')]"
+				"[concat(variables('factoryId'), '/dataflows/transform_to_presentation')]"
 			]
 		},
 		{
