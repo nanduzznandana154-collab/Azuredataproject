@@ -70,7 +70,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "raw_to_ingested",
+						"referenceName": "transform_to_presentation",
 						"type": "DataFlowReference"
 					},
 					"compute": {
