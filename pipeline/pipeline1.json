@@ -69,7 +69,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Repos/Azuredataproject/databricks/01_data_processing"
+					"notebookPath": "/Users/nanduzznandana154@gmail.com/Azuredataproject/databricks/01_data_processing"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
