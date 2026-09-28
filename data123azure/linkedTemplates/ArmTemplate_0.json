@@ -231,8 +231,8 @@
 						]
 					},
 					{
-						"name": "Notebook1",
-						"type": "DatabricksNotebook",
+						"name": "Job1",
+						"type": "DatabricksJob",
 						"dependsOn": [
 							{
 								"activity": "Copy_restresource_to_json",
@@ -250,7 +250,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/Users/nanduzznandana154@gmail.com/Azuredataproject/databricks/01_data_processing"
+							"jobId": "803729410717232"
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureDatabricks1",
