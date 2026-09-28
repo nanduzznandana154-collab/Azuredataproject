@@ -58,7 +58,7 @@
 						"type": "SecureString",
 						"value": "[parameters('AzureDatabricks1_accessToken')]"
 					},
-					"newClusterNodeType": "Standard_D4s_v4",
+					"newClusterNodeType": "Standard_D4s_v3",
 					"newClusterNumOfWorker": "1",
 					"newClusterSparkEnvVars": {
 						"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
